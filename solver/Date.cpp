@@ -17,7 +17,10 @@ Date::Date(int d, Month m, int y) : day(d), month(static_cast<int>(m)), year(y)
 
 Date::~Date(){}
 
-Date::Date(const Date& other) : day(other.day), month(other.month), year(other.year) {}
+Date::Date(const Date& other) : day(other.day), month(other.month), year(other.year)
+{
+    
+}
 
 Date& Date::operator=(const Date& other)
 {
