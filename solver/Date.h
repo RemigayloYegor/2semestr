@@ -19,10 +19,12 @@ Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 };
 
 class Date {
+
 private:
     int day; // День
     int month; // Месяц
     int year; // Год
+
 public:
     Date(int d, int m, int y); // конструктор
     Date(int d, Month m, int y); // конструктор
