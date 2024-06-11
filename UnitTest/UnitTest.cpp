@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
 #include "..\solver\Date.h"
-
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace DateTest
